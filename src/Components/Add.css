@@ -1,0 +1,36 @@
+
+#add{
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+    /* margin-top:40px; */
+    padding-top: 200px;
+}
+
+#add Button{
+    background-color: Blue;
+}
+
+/* #cancel{
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+} */
+/* #formstyle{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+} */
+/* #modal{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:mediumslateblue;
+    border:3px solid black;
+    margin-top: 50px;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-bottom: 50px;
+} */

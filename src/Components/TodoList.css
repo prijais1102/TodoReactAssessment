@@ -1,0 +1,142 @@
+/* src/components/TodoList.css */
+
+.todo-list-container {
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;       
+    margin-bottom: 400px;
+  
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    width: 900px; 
+    margin-bottom: 300px;
+  }
+  
+  .todo-item 
+  {
+   list-style-type: none;
+  padding: 8px;
+  border: 1px solid #ccb1b1;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 8px;
+    margin-left: auto; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+  }
+
+  label {
+    cursor: pointer;
+    margin-right:270px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+ .todo-item.complete {
+    text-decoration:line-through solid;
+    color:rgb(187, 18, 46); 
+    
+  }
+  .edit-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    color:yellow 
+  }
+
+  .view-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #2196f3; 
+  }
+
+  .delete-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #f44336; 
+  }
+
+  .button-container {
+    position: absolute;
+    /* bottom: 10px; */
+    margin-left: 10px;
+    margin-top:20px;
+  }
+   
+
+.searchstyling{
+  border-color:lightgray;
+  border-radius: 9px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  width:170px;
+  margin-left: 78%;
+  margin-top:10px;
+}
+
+  .delete-done-button,
+  .delete-all-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    /* margin-bottom:-50px;
+    margin-top:-50px; 
+     */
+  }
+   
+  .delete-done-button {
+    background-color: #ff6666;
+    color: #fff;
+     margin-right:10px;
+    width:340px;
+ 
+  }
+   
+  .delete-all-button {
+    background-color: #6666ff;
+    color: #fff;
+   margin-left: 10px;
+    width:340px;
+  }
+   
+  .filter-container {
+    display: flex; 
+    gap: 10px;
+    margin-top: 20px; 
+    /* margin-left: 100px; */
+   
+  }
+
+  #filterDropdown
+{
+  border-radius: 13px #CCCC;
+  font-family: cursive;
+  font-size: 15px;
+  margin-left: 840px;
+  align-self:right;
+
+ 
+  
+  /* display:inline-flex; */
+}    
+
+.AddTaskContainer
+{
+  margin-left: 70px;
+  margin-top: 30px;
+}
+   
+  

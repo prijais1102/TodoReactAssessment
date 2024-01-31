@@ -1,0 +1,16 @@
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .pagination .page-item {
+    border-radius: 50px; 
+  }
+
+  /* .tablecontainer
+  {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  } */
+  
